@@ -1,0 +1,586 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+}
+/* -----------navbr-------- */
+
+#navbar {
+  position: sticky;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #7952b3;
+  color: #fff;
+  padding: 9px;
+  width: 100%;
+  height: 9vh;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  margin-left: 5px;
+  margin-right: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgb(226, 172, 102);
+}
+
+nav ul {
+  margin-left: 3px;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+}
+.right-menu i {
+  margin: 0 5px;
+}
+
+.right-menu button {
+  border: 2px solid rgb(228, 165, 84);
+  background: transparent;
+  color: rgb(228, 165, 84);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.right-menu button:hover {
+  color: #fff;
+  background-color: rgb(228, 165, 84);
+  transition: 0.3;
+}
+
+.fab,
+.fa {
+  cursor: pointer;
+}
+
+/* ------------home----------- */
+
+#home {
+  width: 100%;
+  height: 90vh;
+
+  background: linear-gradient(170deg, rgb(247, 245, 244) 60%, #fff 40%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#home .text-div {
+  flex-basis: 55%;
+
+  box-sizing: border-box;
+  margin: 0px 30px 0px 85px;
+}
+
+#home .img-div {
+  flex-basis: 45%;
+  box-sizing: border-box;
+}
+
+.text-div .btn a {
+  background-color: #7952b3;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 14px 40px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.text-div .btn a:hover {
+  color: #fff;
+
+  background-color: #7a36e0;
+}
+.text-div button {
+  background-color: #fff;
+  color: #7952b3;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 12px 40px;
+  border: 1px solid #7952b3;
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.text-div button:hover {
+  color: #fff;
+  transition: 0.7s;
+  background-color: #777;
+  border-color: #777;
+}
+
+.text-div .btn {
+  margin-top: 30px;
+}
+
+.text-div h1 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 65px;
+  margin: 0px 0px 20px;
+}
+
+.text-div p {
+  font-size: 25px;
+  margin: 25px 0;
+}
+
+.all-releases {
+  width: 327px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.text-div {
+  padding-top: 20px;
+  padding-left: 16px;
+}
+
+.img-div img {
+  width: 100%;
+  padding-right: 90;
+  border-radius: 50%;
+}
+
+/* ---------installation--------- */
+
+#installation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+#installation .left-div {
+  flex-basis: 45%;
+  padding-left: 100px;
+}
+
+#installation .right-div {
+  flex-basis: 55%;
+}
+
+#installation .left-div img {
+  width: 75px;
+  cursor: pointer;
+}
+#installation .left-div h1 {
+  font-size: 45px;
+  font-weight: 300;
+}
+#installation .left-div .first {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+#installation .left-div .second a {
+  color: #640aeb;
+}
+#installation .left-div button {
+  background-color: #fff;
+  color: #640aeb;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 40px;
+  border: 1px solid #640aeb;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#installation .left-div button:hover {
+  color: #fff;
+  background-color: #640aeb;
+  transition: 0.7s;
+}
+
+#installation .right-div div {
+  width: 90%;
+  padding: 20px;
+  border-radius: 3px;
+  background-color: rgb(244, 244, 244);
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  display: flex;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+#installation .right-div div button {
+  font-size: 15px;
+  background-color: #fff;
+  color: #640aeb;
+  font-weight: 300;
+  padding: 1px 10px;
+  border: 1px solid #640aeb;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#installation .right-div div button:hover {
+  color: #fff;
+  transition: 0.5s;
+  background-color: #640aeb;
+}
+
+/* -------------jsdelivr------------ */
+
+#jsdrive {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+#jsdrive .left-div {
+  flex-basis: 50%;
+  padding-left: 100px;
+}
+
+#jsdrive .right-div {
+  flex-basis: 0%;
+}
+
+#jsdrive .left-div img {
+  width: 75px;
+  cursor: pointer;
+}
+#jsdrive .left-div h1 {
+  font-size: 45px;
+  font-weight: 300;
+}
+#jsdrive .left-div .first {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+#jsdrive .left-div .second a {
+  color: #640aeb;
+}
+#jsdrive .left-div button {
+  background-color: #fff;
+  color: #640aeb;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 40px;
+  border: 1px solid #640aeb;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#jsdrive .left-div button:hover {
+  color: #fff;
+  background-color: #640aeb;
+  transition: 0.7s;
+}
+
+#jsdrive .right-div div {
+  width: 100%;
+  padding: 15px;
+  border-radius: 3px;
+  background-color: rgb(244, 244, 244);
+  box-sizing: border-box;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#jsdrive .right-div .btn1 {
+  font-size: 15px;
+  background-color: #fff;
+  color: #640aeb;
+  font-weight: 300;
+  padding: 1px 10px;
+  border: 1px solid #640aeb;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#jsdrive .right-div div button:hover {
+  color: #fff;
+  transition: 0.5s;
+  background-color: #640aeb;
+}
+
+/* --------bootstrap icons-------- */
+
+#jsdrive {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+#jsdrive .left-div {
+  flex-basis: 50%;
+  padding-left: 100px;
+}
+
+#jsdrive .right-div {
+  width: 50%;
+}
+
+#jsdrive .left-div img {
+  width: 75px;
+  cursor: pointer;
+}
+#jsdrive .left-div h1 {
+  font-size: 45px;
+  font-weight: 300;
+}
+#jsdrive .left-div .first {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+#jsdrive .left-div .second a {
+  color: #640aeb;
+}
+#jsdrive .left-div button {
+  background-color: #fff;
+  color: #640aeb;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 40px;
+  border: 1px solid #640aeb;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#jsdrive .left-div button:hover {
+  color: #fff;
+  background-color: #640aeb;
+  transition: 0.7s;
+}
+
+#jsdrive .right-div .highlight {
+  width: 90%;
+  border-radius: 3px;
+  background-color: rgb(244, 244, 244);
+  box-sizing: border-box;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: scroll;
+}
+#jsdrive .right-div div button {
+  font-size: 15px;
+  background-color: #fff;
+  color: #640aeb;
+  font-weight: 300;
+  padding: 1px 10px;
+  border: 1px solid #640aeb;
+  border-radius: 3px;
+  cursor: pointer;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-right: 15px;
+}
+#jsdrive .right-div div button:hover {
+  color: #fff;
+  transition: 0.5s;
+  background-color: #640aeb;
+}
+
+/* ---------bootstrap icons------ */
+
+#bootstrap-icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+#bootstrap-icons .left-div {
+  flex-basis: 50%;
+  padding-left: 100px;
+}
+
+#bootstrap-icons .right-div {
+  flex-basis: 50%;
+}
+
+#bootstrap-icons .left-div img {
+  width: 75px;
+  cursor: pointer;
+}
+#bootstrap-icons .left-div h1 {
+  font-size: 45px;
+  font-weight: 300;
+}
+#bootstrap-icons .left-div .first {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+#bootstrap-icons .left-div .second a {
+  color: #640aeb;
+}
+#bootstrap-icons .left-div button {
+  background-color: #fff;
+  color: #640aeb;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 40px;
+  border: 1px solid #640aeb;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#bootstrap-icons .left-div button:hover {
+  color: #fff;
+  background-color: #640aeb;
+  transition: 0.7s;
+}
+
+#bootstrap-icons .right-div img {
+  float: left;
+  width: 90%;
+}
+
+/* ----------Theme------- */
+
+#bootstrap-theme {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+#bootstrap-theme .left-div {
+  flex-basis: 45%;
+  padding-left: 100px;
+}
+
+#bootstrap-theme .right-div {
+  flex-basis: 55%;
+}
+
+#bootstrap-theme .left-div img {
+  width: 75px;
+  cursor: pointer;
+}
+#bootstrap-theme .left-div h1 {
+  font-size: 45px;
+  font-weight: 300;
+}
+#bootstrap-theme .left-div .first {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+#bootstrap-theme .left-div .second a {
+  color: rgb(74, 31, 139);
+}
+#bootstrap-theme .left-div button {
+  background-color: #fff;
+  color: #640aeb;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 40px;
+  border: 1px solid #640aeb;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#bootstrap-theme .left-div button:hover {
+  color: #fff;
+  background-color: #640aeb;
+  transition: 0.7s;
+}
+#bootstrap-theme .right-div img {
+  width: 90%;
+  margin-left: 30px;
+}
+
+/* ----------footer--------- */
+
+#footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 100px;
+  background-color: rgb(244, 244, 244);
+  padding-right: 100px;
+
+  height: 30vh;
+  padding: 150px 100px;
+}
+
+#footer .links p:nth-child(1) {
+  font-size: 20px;
+}
+#footer .guides p:nth-child(1) {
+  font-size: 20px;
+}
+#footer .project p:nth-child(1) {
+  font-size: 20px;
+}
+#footer .community p:nth-child(1) {
+  font-size: 20px;
+}
+
+#footer p {
+  margin-bottom: 10px;
+  font-size: 17;
+}
+
+.bootstrap-text p:nth-child(1) {
+  font-size: 24px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+
+.bootstrap-text p i {
+  padding-right: 7px;
+  color: #640aeb9f;
+}
+
+.bootstrap-text p {
+  padding-bottom: 10px;
+}
+
+.guides {
+  padding-left: 15px;
+}
+/* --------Good luck------- */
